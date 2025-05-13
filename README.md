@@ -11,7 +11,10 @@ Dynamic pricing model for price-elastic industries using ML, behavioural segment
 * Dashboard to control behavioural coefficients and visualise ROI
 * Simulated A/B testing (due to simulated nature)
 
-## How do services interact?
+## Breakdown
+![alt text](https://github.com/user-attachments/assets/ff4acedf-157a-4899-9b9d-7482c0e41fcf "User Profiling")
+![alt text](https://github.com/user-attachments/assets/be24ebc0-f3e6-4771-97a9-73fa904c132b "Parameter Dashboard")
+![alt text](https://github.com/user-attachments/assets/7d03594d-74c6-4cd4-8893-5ade4a3d2fa0 "Pricing Engine")
 
 ## Sample Outputs
 
