@@ -1,9 +1,7 @@
 # backend/scraper/batch_scraper.py
 import sys
-print("sys.path:", sys.path)
-
 import csv
-from .amadeus_scraper import get_prices
+from amadeus_scraper import get_prices
 
 routes = [
     {"origin": "LHR", "destination": "JFK", "departure_date": "2025-05-19", "return_date": "2025-05-26"},
