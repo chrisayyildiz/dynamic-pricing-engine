@@ -48,8 +48,7 @@ for flight in data.get("data", []):  # Assuming response format is { "data": [..
             continue
 
 # Step 5: Calculate and print summary statistics
-if prices:
+prices:
     avg_price = sum(prices) / len(prices)
     min_price = min(prices)
     max_price = max(prices)
-
