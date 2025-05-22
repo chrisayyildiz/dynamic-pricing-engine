@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flight Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    input, select, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Find Your Flight</h1>
+
+  <form id="flight-search">
+    <label for="from">From</label>
+    <input type="text" id="from" name="from" placeholder="e.g. LHR" required />
+
+    <label for="to">To</label>
+    <input type="text" id="to" name="to" placeholder="e.g. JFK" required />
+
+    <label for="departure">Departure Date</label>
+    <input type="date" id="departure" name="departure" required />
+
+    <label for="return">Return Date</label>
+    <input type="date" id="return" name="return" />
+
+    <label for="passengers">Passengers</label>
+    <input type="number" id="passengers" name="passengers" value="1" min="1" required />
+
+    <label for="currency-selector">Currency</label>
+    <select id="currency-selector" name="currency">
+      <option value="USD">USD - $</option>
+      <option value="GBP">GBP - £</option>
+      <option value="EUR">EUR - €</option>
+    </select>
+
+    <button type="submit">Search Flights</button>
+  </form>
+
+  <script src="frontend/tracking.js"></script>
+  <script>
+    document.getElementById("flight-search").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Flight search submitted! (This is just a test page.)");
+    });
+  </script>
+</body>
+</html>

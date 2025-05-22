@@ -8,7 +8,7 @@ RAPID_KEY = os.getenv("RAPID_API_KEY")
 
 # Step 1: Hard-coded search inputs
 departure_id  = "LHR"
-arrival_id    = "CDG"
+arrival_id    = "ABZ"
 outbound_date = "2025-06-20"
 return_date   = "2025-06-27"
 adults        = "1"
